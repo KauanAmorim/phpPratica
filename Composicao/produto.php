@@ -2,7 +2,7 @@
 
 require_once "caracteristica.php";
 
-class produto {
+class Produto {
     
     private $nome;
     private $preco;
@@ -16,7 +16,7 @@ class produto {
     }
 
     public function addCaracteristica($nome, $valor){
-        $this->caracteristica[$nome] = new caracteristica($nome, $valor);
+        $this->caracteristica[$nome] = new Caracteristica($nome, $valor);
     }
 
     public function getCaracteristicas(){
@@ -25,5 +25,17 @@ class produto {
 
     public function getCaracteristicaEspecifica($nome){
         return $this->caracteristica[$nome]->getValor();
+    }
+
+    public function getNome(){
+        return $this->nome;
+    }
+
+    public function getPreco(){
+        return $this->preco;
+    }
+
+    public function getEstoque(){
+        return $this->estoque;
     }
 }

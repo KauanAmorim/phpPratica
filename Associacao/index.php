@@ -2,7 +2,7 @@
 require_once "fabricante.php";
 require_once "produto.php";
 
-$fabricante = new fabricante("DeveloperStudios", "20 Anos", "Filandesa", "I.T.");
+$fabricante = new Fabricante("DeveloperStudios", "20 Anos", "Filandesa", "I.T.");
 
 echo "Nome do fabricante: " . $fabricante->getNome() . "<hr>";
 echo "Tempo de atuação do fabricante: " . $fabricante->getTempoDeAtuacao() . "<hr>";
@@ -14,7 +14,7 @@ for ($i=0; $i < 2; $i++) {
 }
 
 $descricao = "Api para ajudar a empresa X deixar mais pratica sua area de finanças";
-$produto = new produto("Api Financeira", $descricao, "3500", "Sem validade", $fabricante);
+$produto = new Produto("Api Financeira", $descricao, "3500", "Sem validade", $fabricante);
 
 echo "Produto - Nome: " . $produto->getNome() . "<hr>";
 echo "Produto - Descrição: " . $produto->getDescricao() . "<hr>";

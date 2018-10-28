@@ -8,7 +8,7 @@ for ($i=0; $i < 2; $i++) {
     echo "<br>";
 }
 
-$celular = new produto("J5 Pro", 1300, 500);
+$celular = new Produto("J5 Pro", 1300, 500);
 
 $celular->addCaracteristica("cor", "preto");
 $celular->addCaracteristica("tela", "5.2");

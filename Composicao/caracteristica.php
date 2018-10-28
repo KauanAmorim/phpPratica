@@ -1,6 +1,6 @@
 <?php 
 
-class caracteristica {
+class Caracteristica {
     private $nome;
     private $valor;
 
