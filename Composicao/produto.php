@@ -17,7 +17,7 @@ class Produto {
 
     /**
      * This method adds an characteristic ($caracteristica) (English).
-     * Esse mpetdo adiciona uma $caracteristica (Portuguese).
+     * Esse método adiciona uma $caracteristica (Portuguese).
      * @access public
      * @param String $nome;
      * @param String|Integer $valor;
@@ -69,7 +69,8 @@ class Produto {
     }
 
     /**
-     * This method get the estoque set.
+     * This method get the $estoque set (English).
+     * Esse método pega o $estoque setado (Portuguese).
      * @access public
      * @return Array
      */    
