@@ -11,7 +11,8 @@ class Cesta {
     }
 
     /**
-     * This method adds an item.
+     * This method adds an item (English).
+     * Esse método adiciona um item (Portuguese).
      * @access public
      * @param Object $produto;
      * @return Void 
@@ -21,7 +22,8 @@ class Cesta {
     }
 
     /**
-     * This method return all the itens added.
+     * This method return all the itens added (English).
+     * Esse método retorna todos os itens adicionados (Portuguese).
      * @access public
      * @return Array
      */    
@@ -30,7 +32,8 @@ class Cesta {
     }
 
     /**
-     * This method return the set time.
+     * This method return the set $time (English).
+     * Esse método retorna o $time setado (Portuguese).
      * @access public
      * @return String 
      */

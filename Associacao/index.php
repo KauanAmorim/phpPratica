@@ -11,7 +11,7 @@ require_once "fabricante.php";
 require_once "produto.php";
 
 echo "Olá, aqui está um exemplo prático do que é uma associanção em PHP OO <br>";
-echo "Olá, aqui está um exemplo prático do que é uma associanção em PHP OO <br>";
+echo "Hello, here is a practical example of what an association is in PHP OO <br>";
 
 /** 
  * -> Inglês (English)
