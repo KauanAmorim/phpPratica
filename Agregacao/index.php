@@ -40,7 +40,7 @@ echo "Hello here is a practical demonstration of aggregation in PHP OO <hr>";
 /** 
  * -> Inglês (English)
  * Executing getItens() method to get all added items and
- * getNome method to get the name of the item.
+ * getNome method to get the name of the item. 
  * 
  * -> Português (Portuguese)
  * Executando método getIntes() para pegar todos os itens adicionados e 
