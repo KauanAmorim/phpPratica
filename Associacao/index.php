@@ -34,13 +34,6 @@ echo "Tempo de atuação do fabricante: " . $fabricante->getTempoDeAtuacao() . "
 echo "Nacionalidade do fabricante: " . $fabricante->getNacionalidade() . "<hr>";
 echo "Area de atuação do fabricante: " . $fabricante->getArea() . "<hr>";
 
-/** 
- * -> Inglês (English)
- * Skipping Lines.
- * 
- * -> Português (Portuguese)
- * Pulando linhas.
-*/
 for ($i=0; $i < 2; $i++) { 
     echo "<br>";
 }

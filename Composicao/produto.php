@@ -16,7 +16,8 @@ class Produto {
     }
 
     /**
-     * This method adds an characteristic.
+     * This method adds an characteristic ($caracteristica) (English).
+     * Esse mpetdo adiciona uma $caracteristica (Portuguese).
      * @access public
      * @param String $nome;
      * @param String|Integer $valor;
@@ -27,7 +28,8 @@ class Produto {
     }
 
     /**
-     * This method get all the set characteristics.
+     * This method get all the set characteristics ($caracteristica) (English).
+     * Esse método pega todas as $caracteristicas setadas (Portuguese).
      * @access public
      * @return Array
      */
@@ -36,7 +38,8 @@ class Produto {
     }
 
     /**
-     * This method get a specific characteristic.
+     * This method get a specific characteristic ($caracteristica) (English).
+     * Esse método pega uma $caracteristica especifica (Portuguese).
      * @access public
      * @param String $nome;
      * @return String
@@ -46,7 +49,8 @@ class Produto {
     }
 
     /**
-     * This method get the name set.
+     * This method get the $nome set (English).
+     * Esse método pega o $nome setado (portuguese).
      * @access public
      * @return Array
      */    
@@ -55,7 +59,8 @@ class Produto {
     }
 
     /**
-     * This method get the preco set.
+     * This method get the $preco set (English).
+     * Esse método pega o $preco setado (Portuguese).
      * @access public
      * @return Array
      */    

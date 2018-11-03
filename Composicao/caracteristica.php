@@ -1,6 +1,7 @@
 <?php 
 
 class Caracteristica {
+    
     private $nome;
     private $valor;
 
@@ -10,7 +11,8 @@ class Caracteristica {
     }
 
     /**
-     * This method get the nome.
+     * This method get the $nome (English).
+     * Esse método pega o $nome (Portuguese).
      * @access public
      * @return String
      */    
@@ -19,7 +21,8 @@ class Caracteristica {
     }
 
     /**
-     * This method get the valor.
+     * This method get the $valor (English).
+     * Esse método pega o $valor (portuguese).
      * @access public
      * @return String
      */
