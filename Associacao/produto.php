@@ -17,7 +17,8 @@ class Produto {
     }
 
     /**
-     * This method get the nome.
+     * This method get the $nome (English).
+     * Esse método pega o $nome (Portuguese).
      * @access public
      * @return String
      */
@@ -26,7 +27,8 @@ class Produto {
     }
 
     /**
-     * This method get the descricao.
+     * This method get the $descricao (English).
+     * Esse método pega a $descricao (Portuguese).
      * @access public
      * @return String
      */
@@ -35,7 +37,8 @@ class Produto {
     }
 
     /**
-     * This method adds an characteristic.
+     * This method get the $preco (English).
+     * Esse método pega o $preco (Portuguese).
      * @access public
      * @return String|Integer
      */
@@ -44,7 +47,8 @@ class Produto {
     }
 
     /**
-     * This method get the validade.
+     * This method get the $validade (English).
+     * Esse método pega a $validade (Portuguese).
      * @access public
      * @return String
      */
@@ -53,7 +57,8 @@ class Produto {
     }
 
     /**
-     * This method get the fabricante nome.
+     * This method get the $nome of $fabricante (English).
+     * Esse método pega o $nome do $fabricante (Portuguese).
      * @access public
      * @return String
      */
@@ -62,7 +67,8 @@ class Produto {
     }
 
     /**
-     * This method get the fabricante tempoDeAtuacao.
+     * This method get the $tempoDeAtuacao of $fabricante (English).
+     * Esse método pega o $tempoDeAtuacao do $fabricante (Portuguese).
      * @access public
      * @return String
      */
@@ -71,7 +77,8 @@ class Produto {
     }
 
     /**
-     * This method get the fabricante nacionalidade.
+     * This method get the $nacionalidade of $fabricante (English).
+     * Esse método pega a $nacionalidade do $fabricante (Portuguese).
      * @access public
      * @return String
      */
@@ -80,7 +87,8 @@ class Produto {
     }
 
     /**
-     * This method get the fabricante area.
+     * This method get the $area of $fabricante (English).
+     * Esse método pega a $area do $fabricante (Portuguese).
      * @access public
      * @return String
      */

@@ -15,7 +15,8 @@ class Fabricante {
     }
 
     /**
-     * This method get the nome.
+     * This method get the $nome (English).
+     * Esse método pega o $nome (Portuguese).
      * @access public
      * @return String
      */
@@ -24,7 +25,8 @@ class Fabricante {
     }
 
     /**
-     * This method get the tempoDeAtuacao.
+     * This method get the $tempoDeAtuacao (English).
+     * Esse método pega o $tempoDeAtuacao (Portuguese).
      * @access public
      * @return String
      */
@@ -33,7 +35,8 @@ class Fabricante {
     }
 
     /**
-     * This method get the nacionalidade.
+     * This method get the $nacionalidade (English).
+     * Esse método pega a $nacionalidade (Portuguese).
      * @access public
      * @return String
      */
@@ -42,7 +45,8 @@ class Fabricante {
     }
 
     /**
-     * This method get the Area.
+     * This method get the $area (English).
+     * Esse método pega a $area (Portuguese).
      * @access public
      * @return String
      */
