@@ -2,7 +2,7 @@
 
 require_once "Conta.php";
 
-class ContaPoupanca extends Conta {
+final class ContaPoupanca extends Conta {
 
     /**
      * This method decreases the $saldo (English).
