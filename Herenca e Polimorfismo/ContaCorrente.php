@@ -18,7 +18,7 @@ class ContaCorrente extends Conta {
      * @param Number $quantia;
      * @return Boolean
      */
-    public function retirar($quantia){
+    final public function retirar($quantia){
 
         if($this->saldo + $this->limite >= $quantia){
             $this->saldo -= $quantia;
